@@ -1,0 +1,10 @@
+--- a/tools/pybind11.BUILD
++++ b/tools/pybind11.BUILD
+@@ -32,6 +32,6 @@ cc_library(
+     ],
+     includes = ["include"],
+     deps = [
+-        "@python2",
++        "@python3.6",
+     ],
+ )

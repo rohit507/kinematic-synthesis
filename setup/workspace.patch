@@ -1,0 +1,5 @@
+38a39,42
+>     pkg_config_repository(
+>         name = "python3.6",
+>         modname = "python-3.6"
+>     )
